@@ -4,9 +4,10 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: #3d3d3d;
   font-family: monospace;
+  background-color: rgb(243, 188, 234);
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -15,7 +16,7 @@ body {
   width: 50%;
   height: 50%;
   border: 7px solid #f0f0f0;
-  background-color: white;
+  background-color: rgb(235, 128, 220);
 }
 section {
   display: flex;
@@ -40,7 +41,7 @@ button:hover {
   border-color: #3d3d3d;
 }
 button {
-  color: black;
+  color: rgb(209, 3, 158);
   border: 1px solid #f3f3f3;
   background-color: #f0f0f0;
 }
